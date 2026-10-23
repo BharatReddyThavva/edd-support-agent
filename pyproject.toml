@@ -1,0 +1,37 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "support-loop"
+version = "0.1.0"
+description = "Eval-driven development loop for a tool-using customer support agent"
+requires-python = ">=3.11"
+dependencies = [
+  "fastembed>=0.4",
+  "langchain-community>=0.3",
+  "langchain-core>=0.3",
+  "langchain-google-genai>=2.0",
+  "langchain-qdrant>=0.2",
+  "langchain-text-splitters>=0.3",
+  "langgraph>=0.2",
+  "opik>=1.8",
+  "python-dotenv>=1.0",
+  "qdrant-client>=1.12",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+support-loop = "support_loop.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/support_loop"]
+
+[tool.hatch.build.targets.wheel.sources]
+"src" = ""
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

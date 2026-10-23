@@ -1,0 +1,16 @@
+[
+  {
+    "name": "k-4",
+    "chat_model": "gemini-3.1-flash-lite",
+    "retrieval_k": 4,
+    "max_tool_rounds": 4,
+    "prompt_style": "baseline"
+  },
+  {
+    "name": "k-6",
+    "chat_model": "gemini-3.1-flash-lite",
+    "retrieval_k": 6,
+    "max_tool_rounds": 4,
+    "prompt_style": "baseline"
+  }
+]
