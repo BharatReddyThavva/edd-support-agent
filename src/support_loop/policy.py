@@ -68,9 +68,9 @@ RULES: dict[str, str] = {
         "The agent never moves money and never changes an order. An eligible refund, replacement, "
         "cancellation, warranty review, or store credit is escalated so a specialist executes it."
     ),
-    "SHIP_FREE": "Standard shipping is free on orders of \u20b92,000 or more.",
-    "SHIP_STD": "Standard shipping costs \u20b979 and takes 5 to 7 business days.",
-    "SHIP_EXP": "Express shipping costs \u20b9199 and takes 2 business days.",
+    "SHIP_FREE": "Standard shipping is free on orders of ₹2,000 or more.",
+    "SHIP_STD": "Standard shipping costs ₹79 and takes 5 to 7 business days.",
+    "SHIP_EXP": "Express shipping costs ₹199 and takes 2 business days.",
     "SHIP_CITIES": (
         "Express shipping is available only for Bengaluru, Mumbai, Delhi, Hyderabad, Chennai, Pune, and Kolkata."
     ),
