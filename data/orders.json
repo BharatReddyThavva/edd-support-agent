@@ -1,0 +1,222 @@
+[
+  {
+    "order_id": "ALD-1042",
+    "email": "meera.iyer@example.com",
+    "status": "delivered",
+    "placed_on": "2026-09-28",
+    "delivered_on": "2026-10-05",
+    "items": [
+      {
+        "sku": "THR-04",
+        "name": "Indigo cotton throw",
+        "category": "soft_goods",
+        "final_sale": false,
+        "personalized": false,
+        "price_inr": 1890,
+        "qty": 1
+      }
+    ],
+    "payment_method": "UPI",
+    "city": "Hyderabad",
+    "total_inr": 1969,
+    "refund_already_issued": false
+  },
+  {
+    "order_id": "ALD-1107",
+    "email": "arjun.desai@example.com",
+    "status": "delivered",
+    "placed_on": "2026-08-12",
+    "delivered_on": "2026-08-20",
+    "items": [
+      {
+        "sku": "SET-12",
+        "name": "Stoneware dinner plates",
+        "category": "tableware",
+        "final_sale": false,
+        "personalized": false,
+        "price_inr": 2400,
+        "qty": 1
+      }
+    ],
+    "payment_method": "card",
+    "city": "Pune",
+    "total_inr": 2400,
+    "refund_already_issued": false
+  },
+  {
+    "order_id": "ALD-1188",
+    "email": "nisha.rao@example.com",
+    "status": "shipped",
+    "placed_on": "2026-10-12",
+    "delivered_on": null,
+    "items": [
+      {
+        "sku": "LMP-02",
+        "name": "Brass task lamp",
+        "category": "lighting",
+        "final_sale": false,
+        "personalized": false,
+        "price_inr": 3400,
+        "qty": 1
+      }
+    ],
+    "payment_method": "card",
+    "city": "Bengaluru",
+    "total_inr": 3400,
+    "refund_already_issued": false
+  },
+  {
+    "order_id": "ALD-1210",
+    "email": "sameera.khan@example.com",
+    "status": "packed",
+    "placed_on": "2026-10-14",
+    "delivered_on": null,
+    "items": [
+      {
+        "sku": "LIN-09",
+        "name": "Linen sheet set",
+        "category": "soft_goods",
+        "final_sale": false,
+        "personalized": false,
+        "price_inr": 4200,
+        "qty": 1
+      }
+    ],
+    "payment_method": "UPI",
+    "city": "Mumbai",
+    "total_inr": 4200,
+    "refund_already_issued": false
+  },
+  {
+    "order_id": "ALD-1255",
+    "email": "vivek.nair@example.com",
+    "status": "delivered",
+    "placed_on": "2026-10-08",
+    "delivered_on": "2026-10-12",
+    "items": [
+      {
+        "sku": "TRY-01",
+        "name": "Clearance oak tray",
+        "category": "tableware",
+        "final_sale": true,
+        "personalized": false,
+        "price_inr": 990,
+        "qty": 1
+      }
+    ],
+    "payment_method": "UPI",
+    "city": "Chennai",
+    "total_inr": 1069,
+    "refund_already_issued": false
+  },
+  {
+    "order_id": "ALD-1302",
+    "email": "leela.menon@example.com",
+    "status": "delivered",
+    "placed_on": "2026-10-11",
+    "delivered_on": "2026-10-14",
+    "items": [
+      {
+        "sku": "ENG-03",
+        "name": "Engraved cake stand",
+        "category": "tableware",
+        "final_sale": false,
+        "personalized": true,
+        "price_inr": 2800,
+        "qty": 1
+      }
+    ],
+    "payment_method": "card",
+    "city": "Kochi",
+    "total_inr": 2800,
+    "refund_already_issued": false
+  },
+  {
+    "order_id": "ALD-1330",
+    "email": "farhan.qureshi@example.com",
+    "status": "delivered",
+    "placed_on": "2026-09-24",
+    "delivered_on": "2026-10-01",
+    "items": [
+      {
+        "sku": "DCH-01",
+        "name": "Dutch oven",
+        "category": "cookware",
+        "final_sale": false,
+        "personalized": false,
+        "price_inr": 5600,
+        "qty": 1
+      }
+    ],
+    "payment_method": "card",
+    "city": "Delhi",
+    "total_inr": 5600,
+    "refund_already_issued": true
+  },
+  {
+    "order_id": "ALD-1404",
+    "email": "divya.shah@example.com",
+    "status": "delivered",
+    "placed_on": "2026-05-26",
+    "delivered_on": "2026-06-01",
+    "items": [
+      {
+        "sku": "KTL-07",
+        "name": "Enamel kettle",
+        "category": "cookware",
+        "final_sale": false,
+        "personalized": false,
+        "price_inr": 2200,
+        "qty": 1
+      }
+    ],
+    "payment_method": "UPI",
+    "city": "Ahmedabad",
+    "total_inr": 2200,
+    "refund_already_issued": false
+  },
+  {
+    "order_id": "ALD-1419",
+    "email": "divya.shah@example.com",
+    "status": "delivered",
+    "placed_on": "2025-08-25",
+    "delivered_on": "2025-09-01",
+    "items": [
+      {
+        "sku": "SKL-02",
+        "name": "Cast iron skillet",
+        "category": "cookware",
+        "final_sale": false,
+        "personalized": false,
+        "price_inr": 3100,
+        "qty": 1
+      }
+    ],
+    "payment_method": "card",
+    "city": "Ahmedabad",
+    "total_inr": 3100,
+    "refund_already_issued": false
+  },
+  {
+    "order_id": "ALD-1500",
+    "email": "hari.bose@example.com",
+    "status": "delivered",
+    "placed_on": "2026-10-10",
+    "delivered_on": "2026-10-12",
+    "items": [
+      {
+        "sku": "TWL-11",
+        "name": "Bath towel set",
+        "category": "soft_goods",
+        "final_sale": false,
+        "personalized": false,
+        "price_inr": 1600,
+        "qty": 1
+      }
+    ],
+    "payment_method": "UPI",
+    "city": "Kolkata",
+    "total_inr": 1679,
+    "refund_already_issued": false
+  }
+]
